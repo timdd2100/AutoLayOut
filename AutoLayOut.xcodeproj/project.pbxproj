@@ -11,6 +11,10 @@
 		3B3921E9187A5BBC0043122F /* Other.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3921E8187A5BBC0043122F /* Other.storyboard */; };
 		3B3921EC187A5BE40043122F /* otherViewCotroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3921EB187A5BE40043122F /* otherViewCotroller.m */; };
 		3B3921EE187BC6AE0043122F /* iphoneOther.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3921ED187BC6AE0043122F /* iphoneOther.storyboard */; };
+		3B3921F4187D213B0043122F /* Brad Cox.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B3921F0187D213B0043122F /* Brad Cox.png */; };
+		3B3921F5187D213B0043122F /* Dennis Ritchie.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B3921F1187D213B0043122F /* Dennis Ritchie.png */; };
+		3B3921F6187D213B0043122F /* Matthijs.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B3921F2187D213B0043122F /* Matthijs.png */; };
+		3B3921F7187D213B0043122F /* Ray.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B3921F3187D213B0043122F /* Ray.png */; };
 		3BFFB7C91876B31E0010F61B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BFFB7C81876B31E0010F61B /* Foundation.framework */; };
 		3BFFB7CB1876B31E0010F61B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BFFB7CA1876B31E0010F61B /* CoreGraphics.framework */; };
 		3BFFB7CD1876B31E0010F61B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BFFB7CC1876B31E0010F61B /* UIKit.framework */; };
@@ -43,6 +47,10 @@
 		3B3921EA187A5BE40043122F /* otherViewCotroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = otherViewCotroller.h; sourceTree = "<group>"; };
 		3B3921EB187A5BE40043122F /* otherViewCotroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = otherViewCotroller.m; sourceTree = "<group>"; };
 		3B3921ED187BC6AE0043122F /* iphoneOther.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iphoneOther.storyboard; sourceTree = "<group>"; };
+		3B3921F0187D213B0043122F /* Brad Cox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brad Cox.png"; sourceTree = "<group>"; };
+		3B3921F1187D213B0043122F /* Dennis Ritchie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dennis Ritchie.png"; sourceTree = "<group>"; };
+		3B3921F2187D213B0043122F /* Matthijs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Matthijs.png; sourceTree = "<group>"; };
+		3B3921F3187D213B0043122F /* Ray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ray.png; sourceTree = "<group>"; };
 		3BFFB7C51876B31E0010F61B /* AutoLayOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BFFB7C81876B31E0010F61B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3BFFB7CA1876B31E0010F61B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -106,6 +114,17 @@
 			name = Other;
 			sourceTree = "<group>";
 		};
+		3B3921EF187D213B0043122F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3B3921F0187D213B0043122F /* Brad Cox.png */,
+				3B3921F1187D213B0043122F /* Dennis Ritchie.png */,
+				3B3921F2187D213B0043122F /* Matthijs.png */,
+				3B3921F3187D213B0043122F /* Ray.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		3BFFB7BC1876B31E0010F61B = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +158,7 @@
 		3BFFB7CE1876B31E0010F61B /* AutoLayOut */ = {
 			isa = PBXGroup;
 			children = (
+				3B3921EF187D213B0043122F /* Images */,
 				3B3921ED187BC6AE0043122F /* iphoneOther.storyboard */,
 				3B3921E7187A5B8E0043122F /* Other */,
 				3B3921E6187A5B390043122F /* Resource */,
@@ -261,8 +281,12 @@
 				3B3921EE187BC6AE0043122F /* iphoneOther.storyboard in Resources */,
 				3BFFB7E11876B31F0010F61B /* Images.xcassets in Resources */,
 				3B3921E9187A5BBC0043122F /* Other.storyboard in Resources */,
+				3B3921F4187D213B0043122F /* Brad Cox.png in Resources */,
 				3BFFB7D31876B31E0010F61B /* InfoPlist.strings in Resources */,
 				3B3921E5187A4ECD0043122F /* FIRSTBUTTON.png in Resources */,
+				3B3921F5187D213B0043122F /* Dennis Ritchie.png in Resources */,
+				3B3921F6187D213B0043122F /* Matthijs.png in Resources */,
+				3B3921F7187D213B0043122F /* Ray.png in Resources */,
 				3BFFB7DC1876B31E0010F61B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
